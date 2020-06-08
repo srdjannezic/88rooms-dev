@@ -1,0 +1,338 @@
+/* PHOBS form CSS Document */
+html,body,.wrapper{overflow-x: hidden !important;}
+.ui-datepicker-prev span {
+    background-image: url(images/arrow-left.svg) !important;
+        background-position: 0px 0px !important;
+}
+
+.ui-datepicker-next span {
+    background-image: url(images/arrow-right.svg) !important;
+        background-position: 0px 0px !important;
+}
+.ui-datepicker-next,.ui-datepicker-prev{background:#000 !important;border:0 !Important;}
+
+body.menu-active #mainmenu{z-index:99;}
+.datepicker .day.active{background:#000 !important;}
+.home #inner-header-bottom.booking{border-bottom:0;}
+#inner-header-bottom.booking{  
+	display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    background-color:#000;
+    margin-top: 10px;
+        height: 136px;
+border-bottom: 1px solid #808080;
+padding-bottom:5px;
+}
+#inner-header-bottom.booking #phobs_book {    
+    width: 1080px;
+    margin: auto;
+    padding-top: 9px;
+    padding-left: 49px;
+} 
+
+html #phobs_book .dropdown-menu{min-width:115px;}
+html #phobs_book .dropdown-menu > li > a{padding:3px 0px;}
+
+.bootstrap-datetimepicker-widget{
+    margin-top: 46px !important;
+    margin-left: -190px !important;
+z-index: 99999 !important;
+
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #888888;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #888888;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #888888;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #888888;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #888888;
+}
+
+#ui-datepicker-div{z-index: 999999 !important;}
+#ui-datepicker-div table td{background: #fff !important;}
+#ui-datepicker-div table td.ui-datepicker-current-day > a{background: #000!important;color:#fff;}
+#ui-datepicker-div table td > a {text-align: center;}
+html div.ui-datepicker{font-size: 16px;}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    background: #fff !important;
+    border:0 !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 0px solid #;
+    background: #13a7d8;
+    color: #fff;
+}
+
+.ui-widget-header{background:#000 !important;}
+.ui-datepicker-title span{color:#fff !important;}
+#datetimepicker1 input,#datetimepicker1 span{float: left;}
+#datetimepicker1 img {
+    font-size: 16px;
+    top: auto;
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin-top: -36px;
+    margin-right: 10px;
+    z-index: 999;
+}
+#datetimepicker1  .add-on{display: none;}
+#datetimepicker1 .icon-calendar{margin-left:0px;}
+
+.bootstrap-datetimepicker-widget .timepicker{display:none;}
+.bootstrap-datetimepicker-widget ul{list-style-image:none;}
+
+.show-on-desktop{ display: block; }
+.show-on-mobile{ display: none; }
+
+
+@media only screen and (max-device-width: 800px) {
+	html #inner-header-bottom.booking{height:auto;}
+	#inner-header-bottom.booking #phobs_book { width: 100%; height: auto;padding-left: 0px;}
+	html .show-on-desktop{ display: none !important; }
+	html .show-on-mobile{ display: block !important; }
+#datetimepicker1 span.add-on {
+    font-size: 16px;
+    top: auto;
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin-top: -42px;
+    margin-right: 19px;
+    z-index: 9999;
+}
+#datetimepicker1 .icon-calendar{margin-left:0px;}
+}
+
+#phobs_book .destination, #phobs_book .hotel {width:235px;}
+.form-group #datetimepicker1{ width: 190px;float: left;position: relative;top: 0px;}
+#phobs_book select[name="nights"],#phobs_book select[name="adults[1]"],#phobs_book select[name="chd[1]"]{width: 122px;}
+#phobs_book .access_code {
+    width: 194px;
+}
+html .form-control{box-shadow: inherit;}
+.rs .access_code,.ru .access_code{width: 194px !important;}
+
+.cancel-block.form-group{margin-bottom: 0;padding-top: 0;}
+html  #phobs_book .form-group {padding:9px;float:left;margin-bottom: 0px;}
+.cancel-block{ float: left;width: 100%;}
+html .bootstrap-datetimepicker-widget{width: auto;}
+html .bootstrap-datetimepicker-widget .collapse{padding: 0;}
+#phobs_book span{font-family: 'kelson_sans_ruregular',sans-serif;font-size: 15px;}
+#phobs_book span.required-fields {display:none;margin-left:15px;color:#828282;font-size: 13px; font-family: 'kelson_sans_ruregular';}
+#phobs_book .form-group span{ position: relative;top: -5px; color:#fff;}
+#phobs_book select{
+    -moz-appearance: none;
+    appearance:none;
+    -webkit-appearance: none;
+    background: url(images/arrow_down.png) no-repeat right 5px center;
+}
+.icon-calendar{    
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+#phobs_book {
+    padding: 0px;
+    margin: 0px;
+    font: normal 11px Arial, Helvetica, sans-serif;
+    color: #000000;
+    padding-left: 5px;
+    width: 100%;
+    margin: auto;    
+}
+#phobs_book .booking_naslov {
+    font: normal 16px 'kelson_sans_ruregular',sans-serif,Arial, Helvetica;
+}
+#phobs_book input{
+    font: normal 16px 'kelson_sans_ruregular',sans-serif, Arial, Helvetica;
+    margin-bottom: 3px;
+    border:1px solid #fff;
+    border-radius: 0;
+    background-color: #202020;
+    color:#fff;
+}
+#phobs_book select {
+    font: normal 16px 'kelson_sans_ruregular',sans-serif, Arial, Helvetica;
+    margin-bottom: 3px;
+    width: 100%;
+    border:1px solid #fff;
+    border-radius: 0;
+    background-color: #202020;
+    color:#fff;
+}
+
+#phobs_book select {
+    padding: 9px;
+}
+#phobs_book input {
+    padding: 9px;
+}
+
+#phobs_book p {
+    padding: 7px 0px;
+    margin:0px;
+}
+#phobs_book .button {
+    cursor:pointer;
+    /*
+    border: 1px solid #369;*/
+    font: bold 13px 'kelson_sans_ruregular',sans-serif ,Arial, Helvetica, sans-serif;
+    /*
+    color: #003399;
+    background-color: #EEE;*/
+    width: 184px;
+    background: #8241a0;
+    color: #fff!important;
+    border-radius: 0px;
+    border:1px solid #8241a0;
+    padding: 11px;   
+        margin-top: 19px;
+        text-transform: uppercase;
+}
+
+#phobs_book a.view_cancel {
+    font: normal 13px 'kelson_sans_ruregular',Arial, Helvetica, sans-serif;
+    color: #888888;
+    text-decoration:none;
+    float: left;
+}
+#phobs_book a.view_cancel:hover {
+    text-decoration:underline;
+    color: Red;
+}
+html .form-control{height: auto;}
+input[name="date"]{
+    width: 89%;
+}
+.glyphicon{font-size: 26px;width: 21px;}
+
+.bootstrap-datetimepicker-widget ul{padding: 10px;}
+#datetimepicker1 input,#datetimepicker1 span{float: left;}
+#datetimepicker1 span.add-on {font-size: 16px;top:auto;}
+@media only screen and (max-device-width: 800px) {
+#phobs_book .destination, #phobs_book .hotel {width:100%;}
+.form-group #datetimepicker1{ width: 100%;    float: left;}
+#phobs_book select[name="nights"],#phobs_book select[name="adults[1]"],#phobs_book select[name="chd[1]"]{width: 100%;}
+#phobs_book .access_code {width: 100%;}
+.cancel-block.form-group{margin-bottom: 0;padding-top: 0;}
+.form-group {padding:9px;float:left;}
+.cancel-block{ float: left;width: 100%;}    
+    #phobs_book select {
+        width: 32.7%;
+    }
+    #phobs_book .button {
+        width: 96%;
+    }
+    #phobs_book select[name="nights"]{width: 100%;}
+    #phobs_book {
+        width: 97%;
+    }
+    .form-group {width: 100%;padding:10px;float:left;}
+    html #phobs_book .form-group {margin-bottom: 0px;height: auto;} 
+}  
+
+@media only screen and (max-device-width: 350px){
+   .home .main-slider-wrap{
+        position: absolute;
+        top: 0%;
+    }  
+    .nights-box,.chd-box,.adults-box{
+        width: 27.7%;
+        float:left;
+    }
+    .home #inner-header-bottom{    
+        top:229px;
+        position: relative;
+    }    
+    .home .home-wrap{
+    	top:465px;
+    	position:relative;
+    }
+.slider-boxes {top: 6.5%;position:absolute;}  
+} 
+
+@media only screen and (min-device-width: 350px) and (max-device-width: 400px) {
+    .home .main-slider-wrap{
+        position: absolute;
+        top: 0%;
+    }     
+    .nights-box,.chd-box,.adults-box{
+        width:28.5%;
+        float:left;
+    }
+    .home #inner-header-bottom{    
+        top:269px;
+        position: relative;
+    }    
+    .home .home-wrap{
+    	top:500px;
+    	position:relative;
+    }
+.slider-boxes {top: 6.7%;position:absolute;}   
+}
+@media only screen and (min-device-width: 400px) and (max-device-width: 800px) {
+    .home .main-slider-wrap{
+        position: absolute;
+        top: 0%;
+    }    
+    .nights-box,.chd-box,.adults-box{
+        width:28.94%;
+        float:left;
+    }
+    .home #inner-header-bottom{    
+        top:289px;
+        position: relative;
+    }    
+    .home .home-wrap{
+    	top:500px;
+    	position:relative;
+    }
+.slider-boxes {top: 7%;position:absolute;}
+
+html .bootstrap-datetimepicker-widget{
+    top: 52% !important;
+}
+}
+
+@media only screen and (max-device-width: 800px) {
+    html #inner-header-bottom.booking{border-top:0;border-bottom: 1px solid #d9d9d9;z-index: 99999;margin-bottom: 40px;}
+	#inner-header-bottom.booking #phobs_book { width: 100%; height: auto;padding-top: 10px;}
+	html .show-on-desktop{ display: none !important; }
+	html .show-on-mobile{ display: block !important; }
+    .mobile-menu-wrap{z-index: 99991;}
+    .main-slider-wrap{border:0;}
+    #inner-header-bottom{
+        float: left;
+    }
+    .main-slider-wrap{top:0;}
+
+    .home .book-section{position: relative;
+    margin-top: 424px;}
+    html #phobs_book .button{margin:0;}
+    #phobs_book br{display: none;}
+    #phobs_book .access_code {width: 91% !important;}
+html input[name="date"]{
+    width: 91%;
+}
+html #ui-datepicker-div{left:auto !important;right: 0 !important;}
+html #datetimepicker1 img{    margin-right: 24px !important;}
+html #phobs_book .button {font: bold 16px 'Open Sans',sans-serif ,Arial, Helvetica, sans-serif;}
+}
+

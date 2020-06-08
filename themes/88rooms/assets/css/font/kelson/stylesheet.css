@@ -1,0 +1,43 @@
+/* 
+    Document   : stylesheet
+    Created on : Aug 24, 2014, 11:09:54 AM
+    Author     : Nikola
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+    font-family: 'kelsonbold';
+    src: url('kelson_bold_ubasic/Kelson_Bold-webfont.eot');
+    src: url('kelson_bold_ubasic/Kelson_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kelson_bold_ubasic/Kelson_Bold-webfont.woff') format('woff'),
+         url('kelson_bold_ubasic/Kelson_Bold-webfont.ttf') format('truetype'),
+         url('kelson_bold_ubasic/Kelson_Bold-webfont.svg#kelsonbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ai_kelsol';
+    src: url('kelson_light_ubasic/Kelson_Light-webfont.eot');
+    src: url('kelson_light_ubasic/Kelson_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kelson_light_ubasic/Kelson_Light-webfont.woff') format('woff'),
+         url('kelson_light_ubasic/Kelson_Light-webfont.ttf') format('truetype'),
+         url('kelson_light_ubasic/Kelson_Light-webfont.svg#ai_kelsol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ai_kelsor';
+    src: url('kelson_regular_ubasic/Kelson_Regular-webfont.eot');
+    src: url('kelson_regular_ubasic/Kelson_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kelson_regular_ubasic/Kelson_Regular-webfont.woff') format('woff'),
+         url('kelson_regular_ubasic/Kelson_Regular-webfont.ttf') format('truetype'),
+         url('kelson_regular_ubasic/Kelson_Regular-webfont.svg#ai_kelsor') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

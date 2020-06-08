@@ -1,0 +1,29 @@
+#page {
+    padding-top: 60px;
+}
+#login_form_wrapper{width:325px;margin: 100px auto;}
+#login_form_wrapper h1{text-align: center;margin-bottom: 50px}
+.text-centered{text-align: center;}
+
+.focus{display: block;}
+.thumbnail{position: relative;}
+.selectBoxResult{
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 36px;
+    width: 500px;
+    z-index: 99;
+}
+
+.selectBox .btn.disabled, .btn[disabled] {
+    opacity: 1 !important;
+}
+#flashAlert{
+    position: absolute;
+    right: 20px;
+}
+.selectBoxResult tr:hover{
+    cursor: pointer;
+    background: #fff;
+}

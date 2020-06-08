@@ -1,0 +1,117 @@
+<!-- PHOBS // end -->
+<form action="https://secure.phobs.net/booking.php" method="get" id="phobs_book" name="phobs_book" target="_blank" onSubmit="return checkReservation()">
+   
+<input name="hotel" type="hidden" value="733cdb9685efbbd59d3c6bf7831f4d49" style="display: none">
+
+<div class="form-group">
+<span class="show-on-desktop">Arrival date:</span>
+<br />
+<div id="datetimepicker1" class="input-append date">
+    <input data-format="yyyy-MM-dd" name="date" type="text" class="form-control" readonly></input>
+    <span class="add-on">
+      <img src="/booking/images/calendar-white.svg" data-time-icon="icon-time" data-date-icon="icon-calendar" class="icon-calendar"/>
+    </span> 
+  </div>
+</div>
+   <div class="form-group nights-box">
+   <span class="show-on-desktop">Nights:</span>   
+   <br />
+         <select name="nights" size="1" class="form-control">
+<option value="1" class="show-on-mobile">Nights</option>
+         <option value="1">1</option>
+         <option value="2">2</option>
+         <option value="3">3</option>
+         <option value="4">4</option>
+         <option value="5">5</option>
+         <option value="6">6</option>
+         <option value="7">7</option>
+         <option value="8">8</option>
+         <option value="9">9</option>
+         <option value="10">10</option>
+         <option value="11">11</option>
+         <option value="12">12</option>
+         <option value="13">13</option>
+         <option value="14">14</option>
+         <option value="15">15</option>
+         <option value="16">16</option>
+         <option value="17">17</option>
+         <option value="18">18</option>
+         <option value="19">19</option>
+         <option value="20">20</option>
+         <option value="21">21</option>
+         <option value="22">22</option>
+         <option value="23">23</option>
+         <option value="24">24</option>
+         <option value="25">25</option>
+         <option value="26">26</option>
+         <option value="27">27</option>
+         <option value="28">28</option>
+         <option value="29">29</option>
+         <option value="30">30</option>
+         <option value="31">31</option>
+      </select>
+    </div> 
+    <div class="form-group adults-box">
+      <span class="show-on-desktop">Adults:</span>
+    <br />     
+      <select name="adults[1]" class="form-control">
+         <option value="0" class="show-on-mobile">Adults</option>
+       <option value="0">0</option>
+         <option value="1">1</option>
+         <option value="2">2</option>
+         <option value="3">3</option>
+         <option value="4">4</option>         
+      </select> 
+    </div>
+    <div class="form-group chd-box">
+      <span class="show-on-desktop">Children:</span>
+   <br />      
+      <select name="chd[1]" class="form-control">
+         <option value="0" class="show-on-mobile">Children</option>
+		 <option value="0">0</option>
+         <option value="1">1</option>
+         <option value="2">2</option>
+         <option value="3">3</option>
+         <option value="4">4</option>         
+      </select>
+     </div> 
+
+   <div class="form-group">
+<span class="show-on-desktop">Access key (optional)</span>
+<br><input name="partners_access" type="text" size="20" placeholder="Access key (optional)" maxlength="20" value="" class="access_code form-control" />
+</div>     
+     <div class="form-group">
+<br/>
+     <!---->
+     <a href="<?php echo Utility::createUrl("site/bookNow");  ?>" class="phobs-booknow">
+         <input name="book" type="button" value="Book Now" class="button"> 
+     </a> 
+     </div>
+   <p>
+      <input name="company_id" type="hidden" value="ec7b8fd084dbf9278ce8cf53c3c4b10b" style="display: none" />
+      <input name="view_cancel" type="hidden" value="" style="display: none" />
+      <input name="lang" type="hidden" value="en" style="display: none" /> 
+	  <input name="unit_select" type="hidden" value="1">
+	  <input name="units" type="hidden" value="1">
+
+	  <input name="check_in_day" type="hidden" value="">
+	  <input name="check_in_month" type="hidden" value="">
+	  <input name="check_in_year" type="hidden" value="">
+   </p> 
+
+
+   <div class="cancel-block form-group">
+         <a href="/en/book-now/?lang=en&amp;view_cancel=1" class="view_cancel" target="_blank" onClick="return viewCancelBooking(this)">Change/Cancel reservation &raquo;</a>
+         <span class="required-fields">* Reqired fields</span>
+   </div>
+
+</form>
+
+<script language="javascript" type="text/javascript">
+   /*
+   * PHOBS - form setup
+   */
+   phobsSetupForm();
+</script>
+
+<!-- PHOBS // end -->  
